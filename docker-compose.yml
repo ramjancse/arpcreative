@@ -25,7 +25,7 @@ services:
     image: phpmyadmin/phpmyadmin
     restart: unless-stopped
     ports:
-      - 8081:80
+      - 8083:80
     env_file: .env
     environment:
       PMA_HOST: database
